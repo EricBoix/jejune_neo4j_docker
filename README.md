@@ -5,7 +5,7 @@ Docker image for Neo4j 5.26.26 with APOC plugin pre-installed (for dynamic prope
 ## Usage
 
 ```bash
-docker build -t jejuness:jj_neo4j_docker https://github.com/EricBoix/jj_neo4j_docker.git
+docker build -t jejuneness:jj_neo4j_docker https://github.com/EricBoix/jj_neo4j_docker.git
 ```
 
 ```bash
@@ -14,7 +14,7 @@ docker run \
     --env NEO4J_AUTH=neo4j/your_password \
     -v `pwd`/data:/data \
     --rm \
-    jejuness:jj_neo4j_docker
+    jejuneness:jj_neo4j_docker
 ```
 
 ## What's Included
@@ -61,7 +61,7 @@ docker run --rm --name neo4j_epoc --publish=7777:7687 --env NEO4J_AUTH=neo4j/you
 -e NEO4J_apoc_export_file_enabled=true \
 -e NEO4J_apoc_import_file_enabled=true \
 -e NEO4J_apoc_import_file_use__neo4j__config=true \
---detach jejuness:jj_neo4j_docker
+--detach jejuneness:jj_neo4j_docker
 ```
 
 and we can the password configuration with the running of the standard neo4j container
