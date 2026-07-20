@@ -1,6 +1,6 @@
 # Neo4j Docker Image with APOC
 
-Docker image for Neo4j 5.26.26 with APOC plugin pre-installed (for dynamic properties support).The image is used e.g. by [jj_build_knowledge_graph](https://github.com/EricBoix/jj_build_knowledge_graph).
+Docker image for Neo4j 5.26.26 with APOC plugin pre-installed (for dynamic properties support).The image is used e.g. by [jejune_extract_knowledge_graph](https://github.com/EricBoix/jejune_extract_knowledge_graph).
 
 ## Usage
 
